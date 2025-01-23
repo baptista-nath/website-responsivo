@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: white;
+  background-color: #fff;
 }
 
 .interface {
@@ -15,9 +15,23 @@ body {
 
 /*ESTILO DO HEADER*/
 
+header .btn-contato button,
+.hero-site button {
+  font-size: 18px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
 header {
   width: 100%;
   padding: 40px 0;
+  font-family: "Poppins", serif;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 header .interface {
@@ -37,4 +51,71 @@ header .menu-desktop nav ul {
 header .menu-desktop nav ul li {
   display: inline-block;
   margin: 0 40px;
+}
+
+header .menu-desktop nav ul li a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.2s;
+}
+.menu-desktop nav a:hover {
+  transform: scale(1.05);
+}
+
+.btn-contato button {
+  width: 140px;
+  height: 50px;
+}
+
+header .btn-contato button:hover,
+.interface button:hover {
+  background-color: white;
+  color: #000;
+}
+
+/*Estilo do hero*/
+
+section.hero-site {
+  height: 98vh;
+  background-image: url(../IMAGES/wuebsite3.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.hero-site .interface {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.hero-site .txt-hero h1 {
+  font-size: 4em;
+  font-family: sans-serif;
+  line-height: 70px;
+  font-weight: 100;
+}
+
+.hero-site .txt-hero h1 span {
+  display: block;
+  font-weight: 800;
+}
+
+.hero-site .txt-hero p {
+  font-size: 25px;
+  font-weight: 300;
+  margin: 20px 0;
+}
+
+.hero-site .txt-hero p span {
+  display: block;
+}
+
+.hero-site button {
+  width: 220px;
+  height: 60px;
+  font-size: 20px;
 }
