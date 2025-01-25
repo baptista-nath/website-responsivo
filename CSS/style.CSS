@@ -12,6 +12,7 @@ body {
 .interface {
   max-width: 1280px;
   margin: 0 auto;
+  padding: 0 5%;
 }
 
 /*ESTILO DO HEADER*/
@@ -359,10 +360,10 @@ footer .top-footer button:hover {
   background-color: #fff;
   color: #000;
 }
-footer .midle-footer {
+footer .middle-footer {
   margin: 15px 0;
 }
-footer .midle-footer a {
+footer .middle-footer a {
   color: #fff;
 }
 footer .bottom-footer {
