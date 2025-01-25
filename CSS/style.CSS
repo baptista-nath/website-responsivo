@@ -35,11 +35,14 @@ header .btn-contato button:hover,
 
 header {
   width: 100%;
-  padding: 40px 0;
+  padding: 10px 0;
   font-family: "Poppins", serif;
+
   position: fixed;
   top: 0;
   left: 0;
+  transition: 0.5s;
+  z-index: 5;
 }
 
 header .interface {
@@ -50,8 +53,36 @@ header .interface {
 
 header .logo img {
   max-width: 70px;
-  margin: 60px;
+  margin-left: 20px;
 }
+/*EStilo do menu dinamico*/
+header .logo img.logo-escura {
+  display: none;
+}
+header.rolar {
+  background-color: #fff;
+  padding: 20px 0;
+  box-shadow: 0 0 8px #00000061;
+}
+header.rolar .menu-desktop nav ul li a {
+  color: #000;
+}
+header.rolar .btn-contato button {
+  border: 1px solid #000;
+  color: #000;
+}
+header.rolar .btn-contato button:hover {
+  background-color: #000;
+  color: #fff;
+}
+header.rolar .logo .logo-clara {
+  display: none;
+}
+header.rolar .logo .logo-escura {
+  display: block;
+}
+
+/*---------------------------------*/
 
 header .menu-desktop nav ul {
   list-style-type: none;
@@ -59,7 +90,7 @@ header .menu-desktop nav ul {
 
 header .menu-desktop nav ul li {
   display: inline-block;
-  margin: 0 40px;
+  margin: 0 20px;
 }
 
 header .menu-desktop nav ul li a {
@@ -75,14 +106,14 @@ header .menu-desktop nav ul li a {
 .btn-contato button {
   width: 140px;
   height: 50px;
-  margin: 50px;
+  margin-right: 50px;
 }
 
 /*Estilo do hero*/
 
 section.hero-site {
   height: 98vh;
-  background-image: url(../IMAGES/wuebsite3.jpeg);
+  background-image: url(../IMAGES/bannerwebsite.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
