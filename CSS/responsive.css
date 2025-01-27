@@ -3,6 +3,9 @@
   header .btn-contato {
     display: none;
   }
+  header .btn-menu-mob {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 878px) {
@@ -123,7 +126,6 @@
     border-top: 2px solid #fff;
   }
   footer .middle-footer p {
-    color: #fff;
     font-size: 14px;
   }
 }
