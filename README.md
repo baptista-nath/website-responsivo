@@ -8,11 +8,16 @@ Este é um site responsivo, bonito e funcional, desenvolvido como parte de um ap
 
 O projeto original foi baseado em um exemplo de agência de viagens criado pelo professor Bruno Rodrigues, no canal Inteliogia. Contudo, adaptei o tema para uma empresa de tecnologia , aplicando os mesmos conceitos de design e responsividade, deixarei imagens, mas, sinta-se a vontade para clonar o repositório e dar uma olhada no site, é lindo.
 
+### Tela inicial
 
+![Imagem do site](/IMAGES/img-site.png)
 
+### Seção de projetos
 
+![Imagem do site](/IMAGES/img-site2.png)
 
 ### 🛠️ Tecnologias Utilizadas
+
 - **HTML**: Estrutura do site.
 - **CSS**: Estilização e layout responsivo.
 - **JavaScript**: Interatividade e comportamento dinâmico.
@@ -20,6 +25,7 @@ O projeto original foi baseado em um exemplo de agência de viagens criado pelo 
 ---
 
 ## 🌟 Funcionalidades
+
 - Layout responsivo que se ajusta a dispositivos móveis, tablets e desktops.
 - Animações e transições para melhorar a experiência do usuário.
 - Navegação intuitiva e design moderno.
@@ -31,7 +37,6 @@ Estruturação com HTML : Organize o conteúdo de forma semântica para melhor a
 Estilização com CSS : Crie layouts interessantes, trabalhe com núcleos, tipografia e utilize media queries para responsividade.
 Interatividade com JavaScript : Adiciona funcionalidades dinâmicas e interativas, como animações, validações de formulário e efeitos de navegação.
 Boas práticas no desenvolvimento web : Organização de código, reaproveitamento de estilos e priorização da experiência do usuário (UX).
-
 
 🎥 Créditos
 Este projeto foi baseado nas aulas do professor Bruno Rodrigues , do canal Inteliogia no YouTube, que tem uma excelente didática. Agradeço ao professor por compartilhar conteúdo educativo de qualidade!
@@ -45,9 +50,7 @@ Este projeto foi criado para fins de aprendizado e está disponível para consul
 Se você tiver alguma dúvida, sugestão ou apenas quiser trocar ideias, fique à vontade para entrar em contato:
 
 GitHub : baptista -nath
-Instagran : _nathalia_baptista
+Instagran : \_nathalia_baptista
 [Linkedin] : (www.linkedin.com/in/)
-
-
 
 E-mail : na.ti.baptistacosta@gmail.com
